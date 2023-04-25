@@ -1,13 +1,13 @@
 {
-  "name": "social-network-jk18",
+  "name": "social-network-jk18-t2",
   "version": "1.0.0",
-  "description": "Reverse engineer developer activity for CRUD methods in Mongoose",
-  "main": "index.js",
+  "description": "API for a social network that uses a NoSQL database",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed"
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
   },
   "dependencies": {
     "express": "^4.17.1",
